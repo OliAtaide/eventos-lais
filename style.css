@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #DDDDDD;
+}
+
+.navbar{
+    background-color: #055B8D;
+    height: 80px;
+}
+
+.login-menu{
+    height: calc(100vh - 80px);
+}
+
+main{
+    margin-top: 80px;
+}
+
+.login-menu .btn{
+    background-color: #377CA4;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.login-menu .card{
+    width: 540px;
+    min-height: 450px;
+}
+
+.form-control{
+    border-color: #505050 !important;
+}
+
+.search input, .search input:focus{
+    border: 0;
+}
+
+label{
+    color: #505050;
+}
+
+.navbar i{
+    font-size: 2.5em;
+}
+
+.bg-lightblue{
+    background-color: #699DBB;
+}
+
+.nav-tabs{
+    border-bottom: 2px solid #7A7A7A;
+}
+
+.nav-link.active{
+    border-bottom: 4px solid #2E2E2E !important;
+}
+
+.eventos .card{
+    height: 300px !important;
+}
+
+.letras{
+    border: 1px solid #D9D9D9;
+    color: #377CA4;
+}
+
+.letras th:not(:last-child){
+    border-right: 1px solid #D9D9D9;
+}
+
+.letras th{
+    text-align: center;
+}
